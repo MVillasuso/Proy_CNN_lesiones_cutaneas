@@ -1,0 +1,14 @@
+<html>
+    <body style="background-color: #accba1;" >
+        <img src='/static/img_ini.gif' width="800" height="100">
+        <h2>Evaluación de lesiones cutáneas</h2>
+        <p> Sube una foto de la lesión en formato <b>PNG</b> y te diremos si debes revisarla con un especialista. </p>
+        <p> <i> El resultado es orientativo. No pretende reemplazar el diagnóstico o la opinión de un profesional </i> </p>
+        <p> <h5> <b> NOTA: </b> No se modificará ni almacenará ninguna información en tu ordenador. </h5> </p>
+        </p>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="data_file" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>

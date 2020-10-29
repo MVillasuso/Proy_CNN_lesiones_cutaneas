@@ -1,0 +1,11 @@
+FASE;ETAPA;DESDE;HASTA;HORAS
+Definición y Alcance;Definición del proyecto individual;1/10/20;11/10/20;16
+Planificación y Diseño;Planificación Proyecto Trello;10/10/20;11/10/20;2
+Desarrollo;Data Collection;12/10/20;14/10/20;12
+Desarrollo;Data Wrangling and cleaning;14/10/20;15/10/20;12
+Desarrollo;Pruebas y selección del modelo de Deep Learning;15/10/20;20/10/20;22
+API Server;API Server;18/10/20;20/10/20;6
+Conclusiones;Jupiter Notebook;20/10/20;21/10/20;6
+Documentación;Documentación;21/10/20;21/10/20;4
+Documentación;Presentación;20/10/20;21/10/20;4
+Entregable;Delivery Zip File;21/10/20;21/10/20;1

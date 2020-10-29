@@ -1,0 +1,14 @@
+<html>
+    <body style="background-color: #accba1;" >
+        <img src='/static/img_ini.gif' width="800" height="100">
+        <h2>[JSON] Evaluación de lesiones cutáneas</h2>
+        <p> Sube una foto de la lesión en formato <b>PNG</b>. </p>
+        <p> <i> Devuelve un string en formato JSON con la probabilidad del modelo para cada clase </i> </p>
+        <p> <h5> <b> NOTA: </b> No se modificará ni almacenará ninguna información en tu ordenador. </h5> </p>
+        </p>
+         <form action="/pred_json" method="post" enctype="multipart/form-data">
+            <input type="file" name="data_file" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
