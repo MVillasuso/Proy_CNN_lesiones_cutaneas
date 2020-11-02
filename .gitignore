@@ -1,0 +1,11 @@
+.DS_Store
+*.csv
+*.html
+*OLD.*
+*.json
+*.zip
+*.md
+*.jpg
+*.pdf
+*.h5
+*.png
